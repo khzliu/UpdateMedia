@@ -13,6 +13,7 @@ public class Voice {
 	private Integer clicks;     //视频点击数
 	private String des;         //视频描述
         private String actor;       //演员
+        //private Integer priase;     //点赞次数
 
         public String getActor() {
             return actor;
@@ -72,4 +73,12 @@ public class Voice {
 	public void setDes(String des) {
 		this.des = des;
 	}
+        /*
+        public Integer getPriase(){
+            return priase;
+        }
+        public void setPriase(Integer priase){
+            this.priase = priase;
+        }
+        */
 }

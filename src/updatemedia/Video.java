@@ -18,6 +18,7 @@ public class Video {
         private String actor;       //演员
         private String singer;      //歌手
         private String album;       //专辑
+        //private Integer priase;     //点赞次数
 
 	public String getDirector() {
             return director;
@@ -112,5 +113,13 @@ public class Video {
 	public void setScale_y(Float scale_y) {
 		this.scale_y = scale_y;
 	}
+        /*
+        public Integer getPriase(){
+            return priase;
+        }
+        public void setPriase(Integer priase){
+            this.priase = priase;
+        }
+        */
 
 }
